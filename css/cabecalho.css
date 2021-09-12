@@ -1,0 +1,50 @@
+.cabecalho {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    position: absolute;
+    
+    background-image: url(../img/destaque.jpeg);
+    background-size: cover;
+
+}
+
+
+.cabecalho_navegacao {
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+    margin-top: 1.25rem;
+
+}
+
+.cabecalho_link {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1.1rem ;
+
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+
+    transition-property: background-color;
+    transition-duration: 0.6s;
+}
+
+.cabecalho_link:hover {
+    transition-property: background-color;
+    background-color: #48A3A6;
+    transition-duration: 0.6s;
+}
+
+.cabecalho_link a {
+    color: #ffffff;
+    text-decoration: none;
+}
